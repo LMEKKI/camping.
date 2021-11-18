@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+  background: url(../img/bg.jpg) center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  
+}
+/*   ------------------------------------> Header + nav */
+
+header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 60px;
+    width: 1000px;
+    border-bottom: 1px solid #f3f0ed7e;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+
+header .left a , .right a 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+header  .mid h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+header   a
+{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+header a:hover
+{
+    color: #3498db;
+    transition: 0.5s;
+    
+}
+
+
+.right span i:hover
+{
+    color: #3498db;
+    transition: 0.5s;
+}
+
+header .left , .right , .mid
+{
+padding-bottom: 20px;
+margin-top: -10px;
+}
+
+
+
+
+
+
+/* fin du Header*/
+
+
+/* premier section ---------------------*/
+
+.secMid
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.secMid .left h1
+{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 86px;
+color: white;
+
+}
+#search
+{
+    color: white;
+    padding-left: 20px;
+}
+
+
+.secMid .left p
+{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color:white;
+padding: 20px 0;
+
+}
+
+
+.secMid .right h3
+{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 26px;
+color:white;
+margin-left: 80px;
+position: relative;
+padding-top: 100px;
+
+
+}
+
+.secMid .right h3::before
+{
+content: "up next";
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color:#f3f0ed7e;
+position: absolute;
+top : 14px;
+left : -59px;
+
+}
+
+.secMid h1 
+{
+    position: relative;
+}
+.secMid h1::before
+{
+    content: " ";
+    position: absolute;
+    border-bottom: 1px solid #f3f0ed7e;
+    width: 70px;
+    top: 126px ;
+    left: 972px;
+    
+}
+
+
+
+.secMid .right h3:hover::after
+{
+color:#3498db;
+transition: 0.5s;
+}
+
+
+
+
+.secMid .right h3::after
+{
+    font-family: FontAwesome;
+    content: "\f30b";
+    display: inline-block;
+    color:#f3f0ed7e;
+    position: absolute;
+    top : 261px;
+    left : -59px;
+
+}
+
+
+
+
+
+.secMid .right 
+{
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+
+}
+
+ .left-text
+{
+
+height: 300px;
+width: 200px;
+background-color: rgba(255,255,255,15%);
+
+
+}
+
+.left-text
+{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius:10px ;
+
+    
+    
+}
+
+.right-img 
+{
+    margin-right: -170px;
+}
+
+
+
+
+
+/* fin de la premier section*/
+
+
+
+
+.bottom
+{
+    height: 150px;
+    background:#474E4F;
+    margin: 0px 24px 1px 162px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+    width: 1205px; 
+    color: white;
+    margin-top: 120px;
+    
+}
+
+.container 
+{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px auto;
+    margin-left: 40px;
+
+}
+
+.home {
+    flex-grow: 3;
+    border-top-left-radius: 10px;
+  border-bottom-left-radius:10px ;
+  
+    
+}
+.check {
+    flex-grow: 1;
+    
+
+}
+.check-out {
+    flex-grow: 1;
+
+}
+.guest {
+    flex-grow: 2;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+
+}
+.btn{
+    flex-grow: 1;
+    padding-left: 15px;
+    
+}
+
+.btn button 
+{
+	background-color:#91CB82;
+	border-radius:18px;
+	border:1px solid #91CB82;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	padding:18px 67px;
+	text-decoration:none;
+    
+    
+}
+
+.btn button:hover
+{
+	
+    background-color:#3498db;
+    border: 1px solid#f7f7f717;
+    transition: 0.5s;
+}
+
+
+    
+
+.home , .guest , .check-out  ,.check .btn
+{
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+    
+
+.home , .guest , .check-out  ,.check {
+    background-color: rgb(255 255 255 / 0%);
+    padding: 20px 20px;
+    border: 1px solid#f7f7f717;
+    
+    
+}
+
+.home p {
+    text-align: center;
+    position: relative;
+
+}
+
+.home p::before {
+    content: "Accommodation";
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: -16PX;
+
+}
+
+
+.home p::after
+{
+    font-family: FontAwesome;
+    content: "\f015";
+    display: inline-block;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: -1PX;
+    left: 5px;
+
+
+}
+
+
+
+.bottom h4
+{
+    position: relative;
+}
+.bottom h4::after
+{
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: 69PX;
+    left: 411px;
+
+}
+
+
+
+
+
+.check p {
+    text-align: center;
+    position: relative;
+
+}
+
+.check p::before {
+    content: "check-in";
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: -12PX;
+
+}
+
+
+.check p::after
+{
+    font-family: FontAwesome;
+    content: "\f272";
+    display: inline-block;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: 0PX;
+    left: -2px;
+}
+
+
+.check-out p {
+    text-align: center;
+    position: relative;
+
+}
+
+.check-out p::before {
+    content: "check-out";
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: -12PX;
+
+}
+
+
+.guest p {
+    text-align: center;
+    position: relative;
+    margin-right: 25px;
+
+}
+
+.guest p::before {
+    content: "Guests";
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: -12PX;
+
+}
+
+.guest p::after
+{
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    color:#f3f0ed7e;
+    position: absolute;
+    top: 0PX;
+    left: 142px;
+}
+
+
+.home span
+{
+ margin-left: 67px;
+}
+
+
+
+.bottom h4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 25px;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+
+}
+
+
+
+
+
+.guest p:hover::after
+{
+    color:#3498db;
+    transition: 0.5s;
+}
+
+.bottom h4:hover::after
+{
+    color:#3498db;
+    transition: 0.5s;
+}
